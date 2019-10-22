@@ -1,0 +1,21 @@
+{
+	"name": "wp/gittest",
+	"description": "Wp Gittest",
+	"require": {
+		"wp/gittest-wp": "*"
+	},
+	"type": "gittest-module",
+	"version": "1.9.1",
+	"license": [
+		"Test1",
+		"Test2"
+	],
+	"autoload": {
+		"files": [
+			"gittest.php"
+		],
+		"psr-4": {
+			"Wp\\Gittest\\": ""
+		}
+	}
+}
